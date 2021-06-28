@@ -23,3 +23,6 @@
 С запуском IIS Express у меня возникли проблемы (как описано на этой странице https://developercommunity.visualstudio.com/t/Failed-to-load-resource:-net::ERR_HTTP2_/1446262),
 чтобы не тратить много времени на разбирательство, удалила у себя обновление операционной системы KB5003637
 (не лучший вариант, но для меня он был самый быстрый).
+
+Сортировака элементов по имени или размеру в рамках папки реализована программно.
+В файле TreeVeiw/ClientApp/src/components/TreeView.js параметр orderNodesBy принимает значение OrderBy.Name или OrderBy.Size;
